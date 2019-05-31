@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="Resources/style.css">
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Bootstrap Visualization Dashboard</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+        <a class="navbar-brand d-flex w-50 mr-auto bg-teal" href="index.html">Latitide</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+            <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Clouds.html">Cloudiness</a>
+                        <a class="dropdown-item" href="Wind.html">Windiness</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Data.html">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+      
+     <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-md-7 jumbotron">
+                <div class="row">
+                <h1>Latitude vs Cloudiness</h1>
+                <img src="Resources/assets/images/LatVsCloud.png">
+                    There doesn't appear to be a corelation between Latitude and Cloudiness.
+                </div>
+            </div>
+            
+            <div class="col-xs-8 col-md-5 jumbotron">
+                <h1>Visualizations</h1>
+                <div class="btn-group-vertical">
+                <br/>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="Resources/assets/images/LatVsTemp.png" target="_blank">
+                        <img src= "Resources/assets/images/LatVsTemp.png" alt="..." class="img-thumbnail">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="Resources/assets/images/LatVsHum.png" target="_blank">
+                        <img src= "Resources/assets/images/LatVsHum.png"alt="..." class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="Resources/assets/images/LatVsCloud.png" target="_blank">
+                        <img src= "Resources/assets/images/LatVsCloud.png" alt="..." class="img-thumbnail">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                        <a href="Resources/assets/images/LatVsWind.png" target="_blank">
+                        <img src= "Resources/assets/images/LatVsWind.png" alt="..." class="img-thumbnail">
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+  </body>
